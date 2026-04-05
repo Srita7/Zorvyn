@@ -2,10 +2,10 @@
 # Overview 
 This project is a backend system for a finance dashboard that supports user role management, financial record tracking, and analytics.
 # Tech Stack
--Node.js
--Express.js
--MongoDB
--JWT Authentication
+- Node.js
+- Express.js
+- MongoDB
+- JWT Authentication
 # Features
 User & Role Management
 - Register/Login users
@@ -36,30 +36,33 @@ User & Role Management
 - Proper HTTP status codes
 - Error responses
 # How to Run
-npm install
-npm run dev
+- npm install
+- npm run dev
 #Environment Variables
 
 Create a .env file:
 
-PORT=5000
-MONGO_URI=your_mongodb_url
-JWT_SECRET=your_secret_key
+- PORT=5000
+- MONGO_URI=your_mongodb_url
+- JWT_SECRET=your_secret_key
 
 # API Endpoints
 Auth
 - POST /api/auth/register
 - POST /api/auth/login
+
 Records
 - GET /api/records
 - POST /api/records
 - PUT /api/records/
 - DELETE /api/records/
+
 Dashboard
 - GET /api/dashboard/summary
 - GET /api/dashboard/category
 - GET /api/dashboard/trends
 - GET /api/dashboard/recent
+
 Users (Admin)
 - GET /api/users
 - PATCH /api/users//role
