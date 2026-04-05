@@ -3,10 +3,10 @@ Overview
 This project is a backend system for a finance dashboard that supports user role management, financial record tracking, and analytics.
 #
 Tech Stack
-.Node.js
-.Express.js
-.MongoDB
-.JWT Authentication
+-Node.js
+-Express.js
+-MongoDB
+-JWT Authentication
 #
 Features
 User & Role Management
